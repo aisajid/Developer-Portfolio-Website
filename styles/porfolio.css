@@ -167,3 +167,48 @@ main section{
     font-size: 16px;
     letter-spacing: 0;
 }
+
+/* resume section style */
+
+.resume-container{
+    margin-top: 113px;
+    display: flex;
+    gap: 24px;
+}
+
+
+.resume-column-title{
+    font-size: 30px;
+    font-weight: 700px;
+    margin-bottom: 30px;
+    color: #474747;
+
+}
+.experience-title{
+    font-size: 25px;
+    font-weight: 700px;
+    margin-bottom: 10px;
+    color: #474747;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color:#757575;
+}
+
+.experience-description{
+    color: #757575;
+    line-height: 28px;
+    letter-spacing: 0%;
+}
+    
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-btn-container{
+    margin-top: 50px ;
+}
