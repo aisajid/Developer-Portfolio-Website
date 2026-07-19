@@ -229,6 +229,16 @@ footer{
 }
 
 .contact input[type="text"], .contact input[type="email"], textarea{
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border:none;
+
+    /* display: block;
     display: block;
     margin-bottom: 25px;
     padding: 18px 35px;
@@ -237,10 +247,40 @@ footer{
     border: none;
     border-radius: 5px;
     background: #fff;
-    width: 100%;
+
+    width: 100%; */
 }
 
 
 .social-links a{
     margin-right: 25px;
+}
+
+/* responsive media query */
+
+.hide{
+    display: none;
+}
+
+/* for small devices */
+@media screen and (max-width: 576px) {
+    .skills-container, .resume-container, footer, .about-items{
+        flex-direction: column;
+    }
+    .resume-container{
+        padding: 5px;
+    }
+
+    footer, .about{
+        padding: 20px;
+        margin: 0;
+    }
+    .footer-column{
+        width: 100%;
+    }
+    .contact input[type="text"], .contact input[type="email"], textarea {
+        width: calc(100% - 40px);
+    }
+    
+
 }
